@@ -85,7 +85,7 @@ public class BaseClass {
 		btnClose.click();
 
 	}
-	public void implicitWait() {
+	public  static void implicitlyWait() {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 	}
